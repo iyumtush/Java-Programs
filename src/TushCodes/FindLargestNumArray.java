@@ -7,7 +7,7 @@ public class FindLargestNumArray {
 		
 	
 		
-		int num[] = {10,40,50,100,150,60,19,22,0,13};
+		int num[] = {10,40,50,100,150,60,200,22,0,13};
 		
 		int largest = num[0];
 		
