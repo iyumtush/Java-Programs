@@ -25,6 +25,15 @@ public class StringUpAndLowCase {
 		System.out.println(ln);
 		
 		
+		//String Trimmed
+		
+		String Name = ("    Tushar Gajanan Ingale      ");
+		
+		String trim = Name.trim(); //It trim or remove the unnecessary space around the string
+		
+		System.out.println(trim);
+		
+		
 	}
 
 }
