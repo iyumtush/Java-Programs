@@ -6,6 +6,11 @@ public class BankAccount {
 	
 	double balance;
 	
+	public BankAccount (int account_number , double Intialbalance) {
+		
+		this.account_number = account_number;
+		this.balance = Intialbalance;
+	}
 	
 	public void deposit_amount(double amount){
 		
@@ -13,7 +18,7 @@ public class BankAccount {
 			
 			balance+=amount;
 			
-			System.out.println("Amount Deposited , New Balance Rs: ₹"+balance);
+			System.out.println("Amount Rs: ₹"+amount+" Deposited ✅ , New Balance Rs: ₹"+balance);
 		}
 		else {
 			System.out.println("Invalid Amount");
