@@ -11,6 +11,9 @@ public class BankAccountApplication {
 		
 		//MBIAccount1.account_number = 123;
 		//MBIAccount1.balance = 1000;
+		
+		System.out.println("The Account Number is :" +MBIAccount1.getAccountNumber());
+		System.out.println("The Account Balance :" +MBIAccount1.getbalance());
 		MBIAccount1.deposit_amount(500);
 		MBIAccount1.check_balance(1500);
 		MBIAccount1.withdraw_amount(250);

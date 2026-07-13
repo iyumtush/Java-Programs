@@ -2,9 +2,9 @@ package ManoranjanBankOfIndia;
 
 public class BankAccount {
 
-	int account_number;
+	private int account_number;
 	
-	double balance;
+	private double balance;
 	
 	public BankAccount (int account_number , double Intialbalance) {
 		
@@ -12,6 +12,23 @@ public class BankAccount {
 		this.balance = Intialbalance;
 	}
 	
+	
+	public int getAccountNumber() {
+		return account_number;
+		
+	}
+	
+	public double getbalance() {
+		return balance;
+	}
+	
+	public void setAccountNumber(int account_number) {
+		this.account_number = account_number;
+	}
+	
+	public void setbalance(double balance) {
+		this.balance = balance;
+	}
 	public void deposit_amount(double amount){
 		
 		if(amount>0) {
