@@ -29,6 +29,8 @@ public class BankAccountApplication {
 		MBIAccount1.check_balance(10000);
 		MBIAccount1.withdraw_amount(7500);
 		
+
+		//test app
 	}
 
 }
