@@ -2,14 +2,15 @@ package TushCodes;
 
 public class StudentStaticMTDemo {
 
-	//instances
+	//Static variable 
 	
 	private static int total_student = 0;
 	
+	//instances
 	private String name;
 	private int age;
 	
-	//Constructer
+	//Constructor
 	
 	public StudentStaticMTDemo(String name, int age) {
 		
