@@ -35,7 +35,7 @@ public class BankAccount {
 			
 			balance+=amount;
 			
-			System.out.println("Amount Rs: ₹"+amount+" Deposited ✅ , New Balance Rs: ₹"+balance);
+			System.out.println("Rs: ₹"+amount+" Deposited ✅ , New Balance Rs: ₹"+balance);
 		}
 		else {
 			System.out.println("Invalid Amount");

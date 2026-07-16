@@ -30,6 +30,16 @@ public class BankAccountApplication {
 		MBIAccount1.check_balance(10000);
 		MBIAccount1.withdraw_amount(7500);
 		
+		System.out.println("Account3 Holder Details 👇");
+		
+		SavingsAccount s1_account = new SavingsAccount(125 , 30000 , 0.06);
+		s1_account.deposit_amount(500);
+		s1_account.check_balance(30500);
+		s1_account.CalInterest();
+			
+			
+			
+		
 
 		//test app
 	}
