@@ -27,7 +27,7 @@ public class StudentStaticMTDemo {
 	}
 	
 	//Static Method
-	public void showTotalStudent() {
+	public static void showTotalStudent() {
 		
 		System.out.println("Total Students : "+total_student);
 	}
