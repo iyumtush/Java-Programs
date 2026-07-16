@@ -28,15 +28,15 @@ public class Person {
 	//methods to display
 	public void showPersonName() {
 		
-		System.out.println("The name of the person is : " +name);
+		System.out.print("The name of the person is : " +name);
 	}
 	
 	public void showPersonAge() {
-		System.out.println("The age of the person is : "+age);
+		System.out.print("The age of the person is : "+age);
 	}
 	
 	public static void showTotalPerson() {
-		System.out.println("The total person present : "+totalPerson);
+		System.out.print("The total person present : "+totalPerson);
 	}
 
 	

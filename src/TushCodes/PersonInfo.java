@@ -10,6 +10,8 @@ public class PersonInfo {
 		Person p2 = new Person("Ved" , 21);
 		
 		p1.showPersonName();
+		p1.showPersonAge();
+		p2.showPersonName();
 		p2.showPersonAge();
 		
 		Person.showTotalPerson();
