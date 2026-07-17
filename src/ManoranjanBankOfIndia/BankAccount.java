@@ -63,4 +63,12 @@ public class BankAccount {
 		 System.out.println("Your Current Balance Rs: ₹"+balance);
 		 
 	 }
+	 
+	 public void calculateInterest() {
+		 double interest = 0.05;
+		 double interestcredit = getbalance() * interest;
+		 deposit_amount(interestcredit);
+		 
+		 System.out.println("The interset credited :"+interestcredit);
+	 }
 }
