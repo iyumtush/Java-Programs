@@ -39,8 +39,8 @@ public class BankAccountApplication {
 			
 			
 		//DynamicDispatchMethod
-	  BankAccount account1 = new BankAccount(125,4000);
-	  BankAccount account2 = new SavingsAccount(126 , 5000 , 0.07);
+	  BankAccount account1 = new BankAccount(125,4000); //SuperClass
+	  BankAccount account2 = new SavingsAccount(126 , 5000 , 0.07);//Subclass
 	  
 	  account1.CalInterest();
 	  account2.CalInterest();
