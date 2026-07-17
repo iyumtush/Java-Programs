@@ -64,7 +64,7 @@ public class BankAccount {
 		 
 	 }
 	 
-	 public void calculateInterest() {
+	 public void CalInterest() {
 		 double interest = 0.05;
 		 double interestcredit = getbalance() * interest;
 		 deposit_amount(interestcredit);

@@ -2,7 +2,7 @@ package ManoranjanBankOfIndia;
 
 public class SavingsAccount extends BankAccount {
 	
-	private double interest_rate;
+	private double interest_rate = 0.07;
 	
 	public SavingsAccount(int account_number , double balance , double interest_rate) {
 		
@@ -15,8 +15,9 @@ public class SavingsAccount extends BankAccount {
 		
 	}
 	
-	//method to calculate the interest
 	
+	//method to calculate the interest
+	@Override
 	public void CalInterest() {
 		
 		double interest = getbalance() * interest_rate;
