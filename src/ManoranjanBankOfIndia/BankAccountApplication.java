@@ -38,7 +38,12 @@ public class BankAccountApplication {
 		s1_account.CalInterest();
 			
 			
-			
+		//DynamicDispatchMethod
+	  BankAccount account1 = new BankAccount(125,4000);
+	  BankAccount account2 = new SavingsAccount(126 , 5000 , 0.07);
+	  
+	  account1.CalInterest();
+	  account2.CalInterest();
 		
 
 		//test app
