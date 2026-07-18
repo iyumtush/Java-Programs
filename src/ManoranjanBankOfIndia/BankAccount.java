@@ -1,6 +1,6 @@
 package ManoranjanBankOfIndia;
 
-public class BankAccount {
+public abstract class BankAccount {
 
 	private int account_number;
 	
@@ -59,16 +59,11 @@ public class BankAccount {
 	 }
 
 	 
-	 public void check_balance(double balance) {
+	 public void check_balance() {
 		 System.out.println("Your Current Balance Rs: ₹"+balance);
 		 
 	 }
 	 
-	 public void CalInterest() {
-		 double interest = 0.05;
-		 double interestcredit = getbalance() * interest;
-		 deposit_amount(interestcredit);
-		 
-		 System.out.println("The interset credited :"+interestcredit);
+	 public abstract void CalInterest(); //abstract method in superclass
 	 }
-}
+
