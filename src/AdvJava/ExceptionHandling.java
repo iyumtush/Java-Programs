@@ -18,6 +18,8 @@ public class ExceptionHandling {
 		int n2 = sc.nextInt();
 		
 		try {
+
+			
 		
 		int r = n1 / n2;
 		
