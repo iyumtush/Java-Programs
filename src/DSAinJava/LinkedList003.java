@@ -20,7 +20,7 @@ public class LinkedList003
        head.next.next.next=new Node01(40);
        head.next.next.next.next=new Node01(50);
        
-       //head.next.next.next.next= head.next;
+       head.next.next.next.next= head.next;
        
        boolean hasCycle = detectCycle(head);  
        System.out.println("Is cycle detected : "+hasCycle);
