@@ -5,7 +5,7 @@ package DSAinJava;
 class Node //This Class Represent the single node in our linkedList
 {
 	int data;
-	Node next;
+	Node01 next;
 	Node(int data)
 	{
 		this.data = data;
@@ -14,10 +14,10 @@ class Node //This Class Represent the single node in our linkedList
 }
 class LinkedList
 {
-	Node head;
+	Node01 head;
 	void add(int data) 
 	{
-		Node newNode = new Node(data);	
+		Node01 newNode = new Node01(data);	
 	
 	
 	if(head == null)
@@ -26,7 +26,7 @@ class LinkedList
 		head = newNode;
 	}else
 	{
-		Node current = head;
+		Node01 current = head;
 		while(current.next!=null) 
 		{
 			current = current.next;
@@ -37,7 +37,7 @@ class LinkedList
 	
 	 void print()
 	{
-		Node current = head ;
+		Node01 current = head ;
 		while(current != null) 
 		{
 			System.out.println(current.data+" ");
