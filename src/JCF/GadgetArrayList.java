@@ -17,6 +17,10 @@ public class GadgetArrayList
 	{
 		System.out.println(gadget);
 	}
-	}
 	
+	//To print the Gadget or list item as per there index
+	Gadget macbook = gadgetList.get(0);
+	System.out.println(" ");
+	System.out.println(macbook);
+	}	
 }
