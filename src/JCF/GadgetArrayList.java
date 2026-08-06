@@ -18,9 +18,19 @@ public class GadgetArrayList
 		System.out.println(gadget);
 	}
 	
-	//To print the Gadget or list item as per there index
+	//To print the Gadget or list item as per there index 
+	// we use "get"
 	Gadget macbook = gadgetList.get(0);
 	System.out.println(" ");
-	System.out.println(macbook);
+	System.out.println("Macbook Info : "+macbook);
+	
+	//To remove item from ArrayList we use "remove"
+	gadgetList.remove(3);
+	System.out.println(" ");
+	System.out.println("After Removing :");
+	for(Gadget gadget : gadgetList) 
+	{
+		System.out.println(gadget);
+	}	
 	}	
 }
