@@ -2,7 +2,7 @@ package JCF;
 import java.util.*;
 public class VehicleArrayList 
 {
-
+     //Created another example to understand ArrayList
 	public static void main(String[] args)
 	{
 		ArrayList<VehicleCollection> vehicleList = new ArrayList<>();
