@@ -13,6 +13,8 @@ public class Gadget
 		 this.name = name;
 		 this.price = price;
 	 }	 
+
+	
 	 
 	 //getters 
 	 public String getname()
