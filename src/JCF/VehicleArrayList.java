@@ -12,7 +12,7 @@ public class VehicleArrayList
 		vehicleList.add(new VehicleCollection
 				("Kawasaki Ninja H2R" , "Bike", 300000.00));
 		vehicleList.add(new VehicleCollection
-				("AshokLeyland" , "Truck", 1000000.00));
+				("Ashok-Leyland" , "Truck", 1000000.00));
 		vehicleList.add(new VehicleCollection
 				("Doodle" , "ECycle", 25000.00));
 		
