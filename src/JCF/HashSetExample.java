@@ -28,10 +28,18 @@ public class HashSetExample
 		for(String job : company)
 		{
 			System.out.println(job);
-		}
-		
+		}		
 		//To find out that particular element in present or not
-		System.out.println(company.contains("Apple"));
+		System.out.println(company.contains("Apple")); //true / false
+		
+		System.out.println(" ");
+		//To remove the element
+		company.remove("Uber");
+		System.out.println("After Removing element : ");
+		for(String job : company)
+		{
+			System.out.println(job);
+		}
 	}
 
 }
