@@ -8,7 +8,7 @@ public class Reverse10to1
 		int i = 10;
 		do
 		{
-			System.out.println(i);
+			System.out.print(i+",");
 			i--;
 		}
 		while(i >= 1);
