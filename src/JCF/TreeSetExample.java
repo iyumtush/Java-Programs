@@ -15,6 +15,10 @@ public class TreeSetExample
 		
 		//In TreeSet the elements are sorted and list in Alphabetic order
 		//and if there are number so as per ascending order
+		
+		/* it helps create dictionary , Phone Numbers 
+		 * records where order is neccesary
+		 */
 		System.out.println("List of Companies : ");
 		
 		for( String job : company) 
