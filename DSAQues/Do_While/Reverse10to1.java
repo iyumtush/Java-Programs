@@ -1,4 +1,4 @@
-package DSAinJava;
+package Do_While;
 
 public class Reverse10to1 
 {
