@@ -30,6 +30,7 @@ public class HashSetExample
 			System.out.println(job);
 		}
 		
+		//To find out that particular element in present or not
 		System.out.println(company.contains("Apple"));
 	}
 
