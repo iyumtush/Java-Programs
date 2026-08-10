@@ -30,6 +30,7 @@ public class HashSetExample
 			System.out.println(job);
 		}
 		
+		System.out.println(company.contains("Apple"));
 	}
 
 }
