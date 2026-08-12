@@ -14,7 +14,7 @@ public class Gadget
 		 this.price = price;
 	 }	 
 
-	
+
 	 
 	 //getters 
 	 public String getname()
