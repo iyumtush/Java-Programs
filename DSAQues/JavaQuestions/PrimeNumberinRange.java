@@ -33,7 +33,7 @@ public class PrimeNumberinRange
 			}
 			if(isPrime) 
 			{
-				System.out.println(i);
+				System.out.print(i+",");
 			}
 			
 		}
