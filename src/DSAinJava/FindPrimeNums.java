@@ -11,12 +11,12 @@ public class FindPrimeNums {
 			System.out.println(i+" : "+isPrime(i));	
 		}		
 	}
-	static boolean isPrime(int num) 
+	static boolean isPrime(int n) 
 	{
 		int c = 2;
-		while(c*c <= num) 
+		while(c*c <= n) 
 		{
-			if(num%c == 0) 
+			if(n%c == 0) 
 			{
 				return false;
 			}
