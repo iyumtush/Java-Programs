@@ -11,28 +11,21 @@ public class CheckPerfectNum
 		System.out.println("Enter the number : ");
 		int num = sc.nextInt();
 		int sum = 0;
-		int perfectNum = 0;
-		for(int i = 1 ; i<= num ; i++)
+		
+		for(int i = 1 ; i < num ; i++)
 		{
-			if(num / i == 0 )
+			if(num % i == 0 )
 			{
-				sum =+i;
-				sum = num;
-				break;
-			}
-			else
-			{
-				sum = num;
+				sum += i;			
 			}
 		}
-		
 		if(sum == num)
 		{
-			System.out.println("Perfect");
+			System.out.println(num+" is perfect number");
 		}
 		else
 		{
-			System.out.println("Finshyt");
+			System.out.println(num+" is not perfect number");
 		}
 		
 	}
