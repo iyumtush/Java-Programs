@@ -14,12 +14,13 @@ public class CheckPerfectNum
 		
 		for(int i = 1 ; i < num ; i++)
 		{
-			if(num % i == 0 )
+			if(num % i == 0 ) //Check number the i 
+				              //which create reminder "0"
 			{
-				sum += i;			
+				sum += i;	 //Store the i which create reminder "0"
 			}
 		}
-		if(sum == num)
+		if(sum == num) //Checks that the sum is equals to number
 		{
 			System.out.println(num+" is perfect number");
 		}
