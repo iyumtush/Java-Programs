@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class CheckPalindromNumber 
 {
-
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
@@ -21,7 +20,6 @@ public class CheckPalindromNumber
 			{
 				System.out.println("The number "+num+" is not palindrome");
 			}
-		
 	}		
 }
 
