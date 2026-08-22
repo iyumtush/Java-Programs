@@ -33,11 +33,9 @@ public class FindGCDOfNumbers
 				if(i > biggest)
 				{
 					GCD = i;
-				}
-				
+				}			
 			}
-		}
-		
+		}		
 		System.out.print("\nThe GCD of "+num1+" & "+num2+" is : "+GCD);
 	}
 
