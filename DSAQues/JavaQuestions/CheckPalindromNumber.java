@@ -21,7 +21,6 @@ public class CheckPalindromNumber
 				System.out.println("The number "+num+" is not palindrome");
 			}
 	}		
-	
 }
 
 
