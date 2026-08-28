@@ -18,34 +18,39 @@ public class CheckStringAnagram
 		
 		boolean isAnagram ;
 		int count = 0;
-		char ch = 0;
 		
 		if(w1.length() == w2.length())
 		{
 			isAnagram = true;
-			for(int i = 0 ; i< w1.length() ; i++)
-			{
-				char w1ch = w1.charAt(i);
-				
-				for(int j = 0 ; j < w2.length(); j++)
-				{
-					char w2ch = w2.charAt(4);
-					
-					if(w1ch == w2ch)
-					{
-					 ch = w1ch;
-					}
-				}
-			}
 			
-			System.out.println(ch);
-			
-		}
-		else
-		{
-			isAnagram = false;
-		}
-		
-	}
+			for (int i = 0; i < w1.length(); i++) {
 
+                char ch = w1.charAt(i);
+                count = 0;
+
+                for (int j = 0; j < w2.length(); j++) {
+
+                    if (ch == w2.charAt(j)) {
+                        count++;
+                    }
+                }
+
+                if (count == 0) {
+                    isAnagram = false;
+                    break;
+                }
+            }
+
+        } else {
+            isAnagram = false;
+        }
+
+        if (isAnagram) {
+            System.out.println("The words are Anagrams");
+        } else {
+            System.out.println("The words are NOT Anagrams");
+        }
+
+        sc.close();
+    }
 }
