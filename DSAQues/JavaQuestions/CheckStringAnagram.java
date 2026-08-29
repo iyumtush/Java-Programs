@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class CheckStringAnagram 
 {
-
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the first word : ");
+		System.out.print("Enter the first word : ");
 		String w1 = sc.nextLine();
-		System.out.println("Enter the Second word : ");
+		System.out.print("Enter the Second word : ");
 		String w2 = sc.nextLine();
 		
 		w1 = w1.toLowerCase();
@@ -23,25 +22,29 @@ public class CheckStringAnagram
 		{
 			isAnagram = true;
 			
-			for (int i = 0; i < w1.length(); i++) {
+			for (int i = 0; i < w1.length(); i++) 
+			{
 
                 char ch = w1.charAt(i);
                 count = 0;
 
-                for (int j = 0; j < w2.length(); j++) {
+                for (int j = 0; j < w2.length(); j++) 
+                {
 
-                    if (ch == w2.charAt(j)) {
+                    if (ch == w2.charAt(j)) 
+                    {
                         count++;
                     }
                 }
-
-                if (count == 0) {
+                if (count == 0) 
+                {
                     isAnagram = false;
                     break;
                 }
-            }
-
-        } else {
+            }			
+        } 
+		else 
+		{
             isAnagram = false;
         }
 
