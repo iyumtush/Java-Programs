@@ -11,6 +11,15 @@ public class Main {
 		
 		my.eat();
 		my.run();
+		String name = "Tushar";
+
+		jump(name);
+
+	}
+
+	static void jump(String name)
+	{
+		System.out.println(name+" can jump");
 	}
 
 }
