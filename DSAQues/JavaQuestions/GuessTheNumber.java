@@ -31,7 +31,8 @@ public class GuessTheNumber {
 			{
 				System.out.println("Congratulations 🎉 !!! "+secretNumber+" is the right guess");
 			}
-		}		
+		}
 		sc.close();
 	}
+
 }
