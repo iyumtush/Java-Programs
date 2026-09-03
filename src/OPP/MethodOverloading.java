@@ -4,8 +4,8 @@ public class MethodOverloading {
 
 	public static void main(String[] args) {
 
-		double x = add(1 , 2);  //Method Overloading : An Method Overloading have the methods thats have 
-		System.out.println(x);  // Same method and different parameters so it makes them unique and functional 
+		double x = add(1 , 2);  //Method Overloading :  Method Overloading have the methods thats share
+		System.out.println(x);  // Same method name and different parameters so it makes them unique and functional
 		                        // Method Name +  Parameters = Method Signature
 		                        // Method Overloading : Same Method Name +  Different Parameters
 	}
