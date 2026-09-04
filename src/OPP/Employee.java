@@ -6,7 +6,7 @@ public class Employee {
 	int empid;
 	double salary;
 	
-	Employee(String name ,int empid , double salary){
+	Employee(String name ,int empid , double salary){//Constructor
 		
 		this.empid = empid;
 		this.name = name;
