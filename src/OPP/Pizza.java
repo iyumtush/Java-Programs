@@ -2,7 +2,7 @@ package OPP;
 
 import java.util.Scanner;
 
-public class Pizza {
+public class Pizza { //Constructor overloading
 	
 	String bread;
 	String cheese;
