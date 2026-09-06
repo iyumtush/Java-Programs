@@ -16,7 +16,8 @@ public class Bike {
     }
     
     
-    public String toString() // 
+    public String toString() //Without this toString method we cannot print this
+                             //info implicitly like writing : sout(car)
     {
     	return name+"\n"+modelYear+"\n"+companyName+"\n"+price;
     }
@@ -25,8 +26,9 @@ public class Bike {
 
 		Bike bike = new Bike("Kawasaki" , 2020 , "Suzuki" , 3400000);
 		
-		System.out.println(bike.toString());
 		System.out.println(bike);
+		//System.out.println(bike.toString());
+		
 	}
 
 }
