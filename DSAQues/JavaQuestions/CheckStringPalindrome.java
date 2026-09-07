@@ -13,7 +13,7 @@ public class CheckStringPalindrome
 		
 		String rev = new StringBuilder(str).reverse().toString();
 		
-		if(str.equalsIgnoreCase(str))
+	if(str.equalsIgnoreCase(str))
 		{
 			System.out.println("The String "+str+" is palindrome.");
 		}
