@@ -28,7 +28,5 @@ public class CheckPerfectNum
 		{
 			System.out.println(num+" is not perfect number");
 		}
-		
-		
 	}
 }
