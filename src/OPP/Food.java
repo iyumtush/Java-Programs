@@ -16,7 +16,7 @@ public class Food {
 		
 		Food[] refrigerator = new Food[3];
 		
-		
+		System.out.println();
 		
 		/*System.out.println(food1.name);
 		System.out.println(food2.name);
