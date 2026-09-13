@@ -53,6 +53,8 @@ public class CheckStringAnagram
         } else {
             System.out.println("The words are NOT Anagrams");
         }
+    
+    
         sc.close();
     }
 }
