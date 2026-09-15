@@ -4,7 +4,7 @@ public class Friend {
 
 	String name;
 	
-	static int numberOfFriends;
+	static int numberOfFriends; //Static
 	
 	Friend(String name)
 	{
