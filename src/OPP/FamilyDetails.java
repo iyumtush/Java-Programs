@@ -3,7 +3,7 @@ package OPP;
 public class FamilyDetails {
 	
 	String fname;
-	static String lname = "Ingale";
+	static String lname = "Ingale"; //lname is static because everyone shares "Ingale".
 	
 	FamilyDetails(String fname ){
 		

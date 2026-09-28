@@ -36,6 +36,11 @@ public class Candidate {
 
 		
 		Scanner sc = new Scanner(System.in);
+		
+		String choice;
+		
+		do
+		{
 		System.out.println("Enter the candidate name : ");
 		String name = sc.nextLine();
 		System.out.println("Enter the candidate rollNo : ");
@@ -45,10 +50,23 @@ public class Candidate {
 		
 		Candidate c1 = new Candidate(name , rollNo , marks);
 		Candidate c2 = new Candidate(name , rollNo , marks);
-
-		
+	
 		c1.displayInfo();
 		c1.checkResult();
-	}
+		
+		 // Ask if another candidate should be entered
+        System.out.println("\nDo you want to enter another candidate? (yes/no)");
+        choice = sc.next();
+
+        // Consume leftover newline
+        sc.nextLine();
+
+		
+		}while(choice.equalsIgnoreCase("yes"));
+		
+		System.out.println("The program is ended...");
+		
+		sc.close();
+		}
 
 }
