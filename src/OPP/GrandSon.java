@@ -2,6 +2,9 @@ package OPP;
 
 public class GrandSon extends Son {
 
+	
+	// Inheritance Example father > son > grandson
+	//Level 3
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
