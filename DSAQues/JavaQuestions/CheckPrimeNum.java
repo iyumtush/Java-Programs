@@ -17,7 +17,7 @@ public class CheckPrimeNum
 			isPrime = false;
 		} else
 		{
-			for(int i = 2 ; i < num;i++)
+			for(int i = 2 ; i <= num / i; i++)
 			{
 				if(num % i == 0) // Number should not divisible by any number lower the
 				{                // entered number if divisible set false
