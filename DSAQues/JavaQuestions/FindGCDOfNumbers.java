@@ -9,34 +9,19 @@ public class FindGCDOfNumbers
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the first number : ");
-		int num1 = sc.nextInt();
+		long num1 = Math.abs((long) sc.nextInt());
 		
-		System.out.print("Enter the first number : ");
-		int num2 = sc.nextInt();
+		System.out.print("Enter the second number : ");
+		long num2 = Math.abs((long) sc.nextInt());
 		
-		int limit = 0;
-		int biggest = 0;
-		int GCD = 0 ;
-		
-		if(num1 > num2 )
+		while(num2 != 0)
 		{
-			limit = num1;
+			long remainder = num1 % num2;
+			num1 = num2;
+			num2 = remainder;
 		}
-		else
-		{
-			limit = num2;
-		}
-		for(int i = 1 ; i < limit ; i++)
-		{
-			if(num1 % i == 0 && num2 % i == 0)
-			{
-				if(i > biggest)
-				{
-					GCD = i;
-				}			
-			}
-		}		
-		System.out.print("\nThe GCD of "+num1+" & "+num2+" is : "+GCD);
+		
+		System.out.print("\nThe GCD is : "+num1);
 	}
 
 }
