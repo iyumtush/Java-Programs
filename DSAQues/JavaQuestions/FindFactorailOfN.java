@@ -9,7 +9,13 @@ public class FindFactorailOfN
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number : ");
 		int num = sc.nextInt();
-		int factorial = 1;
+		if(num < 0 || num > 20)
+		{
+			System.out.println("Please enter a number between 0 and 20.");
+			return;
+		}
+		
+		long factorial = 1;
 		
 		for(int i = 1 ; i <= num; i++) // started from 1 increment 1 till number
 		{
